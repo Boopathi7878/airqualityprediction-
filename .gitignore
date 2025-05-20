@@ -1,0 +1,6 @@
+# Ignore model files
+models/*.pkl
+models/*.h5
+models/*.keras
+echo -e "models/*.pkl\nmodels/*.h5\nmodels/*.keras" > .gitignore
+models/random_forest_pipeline.pkl
